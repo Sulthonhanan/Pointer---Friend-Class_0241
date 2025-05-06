@@ -13,16 +13,15 @@ class mahasiswa
 
 int main()
 {
-    mahasiswa mhs; 
-    mhs.nim = 2024;
-    mhs.shownim();
+    mahasiswa mhs{1}; //objek mhs
+    mhs.shownim();   // Member Akses Operator
 
     mahasiswa &refmhs = mhs;
-    refmhs.nim = 2;
-    mhs.shownim();
+    refmhs.nim = 2;   //objek mhs
+    mhs.shownim();   // Member Akses Operator
 
     mahasiswa *pmhs = &mhs;
-    pmhs->nim = 3;
-    pmhs->shownim();
+    pmhs->nim = 3;     //objek mhs
+    pmhs->shownim();  // Member Akses Operator
     return 0;
 }
