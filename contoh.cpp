@@ -16,4 +16,10 @@ class Persegi_Panjang
             cout << "Masukan Lebarnya :";
             cin >> lebar;
         }
+
+        int LuasPersegi_panjang (int a, int b)
+        {
+            return a * b;
+        }
+
 };
