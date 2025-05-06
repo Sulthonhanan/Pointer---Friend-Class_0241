@@ -22,4 +22,23 @@ class Persegi_Panjang
             return a * b;
         }
 
+        Lingkaran ol;
+};
+
+class Lingkaran
+{
+    public:
+        int jari_jari;
+        
+        
+    void input()
+        {
+            cout << "Masukan Jari-Jarinya :";
+            cin >> jari_jari;
+        }
+
+        int LuasLingkaran (int a)
+        {
+            return 3,14 * a * a;
+        } 
 };
