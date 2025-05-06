@@ -37,8 +37,24 @@ class Lingkaran
             cin >> jari_jari;
         }
 
-        int LuasLingkaran (int a)
+        int LuasLingkaran (int p)
         {
-            return 3,14 * a * a;
+            return 3,14 * p * p;
         } 
+};
+
+int main()
+{
+
+    Persegi_Panjang objekPp;
+    Lingkaran ol;
+
+    cout << "Masukan Panjangnya :";
+    cin >> objekPp.panjang;
+    cout << "Masukan Lebarnya :";
+    cin >> objekPp.lebar;
+    cout << "Luas Persegi Panjang :" << objekPp.LuasPersegi_panjang(objekPp.panjang, objekPp.lebar) << endl;
+
+
+   
 };
